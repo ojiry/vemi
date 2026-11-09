@@ -1,6 +1,7 @@
 # Repository Working Guidelines
 
 - Make changes that are safe for a public OSS repository. Do not add secrets or real credentials.
+- Before committing, review the staged diff for real names, addresses, contact details, internal documents, and non-public customer data. Use fictional data in tests and examples. Leave out anything whose publication status is unclear.
 - Use English Conventional Commits for commit messages.
 - After validating the work, always commit it in small units that can be reviewed independently. Keep unrelated changes separate.
 - Write repository documentation and product messages in English.
