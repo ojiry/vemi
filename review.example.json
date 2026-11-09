@@ -1,0 +1,12 @@
+{
+  "repository": "OWNER/vemi",
+  "reviewer": "review-bot",
+  "base_branch": "main",
+  "docker": "/usr/local/bin/docker",
+  "docker_socket": "/ABSOLUTE/HOME/.docker/run/docker.sock",
+  "image": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+  "gitleaks": "/opt/homebrew/bin/gitleaks",
+  "model": "REPLACE_WITH_MODEL_ID",
+  "publish_comments": false,
+  "allow_approve": false
+}
