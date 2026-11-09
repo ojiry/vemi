@@ -1,0 +1,22 @@
+# Local environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local tool state
+.DS_Store
+__pycache__/
+*.py[cod]
+review.json
+approve.json
+*.token
+STOP
+review.lock
+review-*/
